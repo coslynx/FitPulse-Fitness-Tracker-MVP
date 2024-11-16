@@ -1,0 +1,14 @@
+{
+  "commands": [
+    "cd fitness-tracker/backend",
+    "npm install",
+    "npm run build",
+    "cd fitness-tracker/apps/web",
+    "npm install",
+    "npm run build",
+    "mongod",
+    "cd fitness-tracker/backend",
+    "node dist/server.js"
+  ]
+}
+```
